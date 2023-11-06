@@ -22,6 +22,12 @@ Here are a few things you can expect from my journey in DSA:
 <img  src="https://res.cloudinary.com/practicaldev/image/fetch/s--O3hycoaa--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j8wo9f1mou6g5469671h.gif"  width="60%" >
 </div>
 
+## 📝 Table of Contents
+
+1.  [Day 1. Introduction To DSA](1_Introducton_DSA)
+2.  [Day 2. Basic of CPP](2_Basic_Of_C++)
+3.  [Day 3. If_Else , Loops and Patterns](3_IF_ELSE_Loops_Patterns)
+
 ## 🔖 Connect with Me
 
 You can find me on GitHub, where I share my coding projects, collaborate with others, and explore open-source contributions:
