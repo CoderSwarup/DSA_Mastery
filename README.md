@@ -27,6 +27,9 @@ Here are a few things you can expect from my journey in DSA:
 1.  [Day 1. Introduction To DSA](1_Introducton_DSA)
 2.  [Day 2. Basic of CPP](2_Basic_Of_C++)
 3.  [Day 3. If_Else , Loops and Patterns](3_IF_ELSE_Loops_Patterns)
+4.  [Day 4. Operators , Variable Scope](4_Operators)
+5.  [Day 5. Number System](5_Number_System)
+6.  [Day 6. Problem Solving](6_Problem_solving)
 
 ## 🔖 Connect with Me
 

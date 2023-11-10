@@ -1,4 +1,4 @@
-d# Day 3: Conditional Statements, Looping Statements, and Patterns
+# Day 4: Conditional Statements, Looping Statements, and Patterns
 
 ## 📅 Date: 06-11-2023
 
