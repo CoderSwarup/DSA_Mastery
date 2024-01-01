@@ -1,4 +1,4 @@
-# Day 5: Number Systems and Problem Solving
+# Day 6: Problem Solving
 
 ## 📅 Date: 09-11-2023
 
