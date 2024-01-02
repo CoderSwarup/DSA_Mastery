@@ -30,6 +30,8 @@ Here are a few things you can expect from my journey in DSA:
 4.  [Day 4. Operators , Variable Scope](4_Operators)
 5.  [Day 5. Number System](5_Number_System)
 6.  [Day 6. Problem Solving](6_Problem_solving)
+7.  [Day 7. Switch Case And Function](7_Switch_Statement_Functions)
+8.  [Day 8. Arrays](8_Arrays)
 
 ## 🔖 Connect with Me
 
@@ -43,50 +45,8 @@ For a more personal touch, you can follow me on Instagram:
 
 I look forward to connecting, collaborating, and learning together. Let's code and grow together!
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      font-weight:30px;
-    }
+### 💻🌟🔍
 
-    .quote-container {
-      background-color: #3498db;
-      color: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      display: inline-block;
-    }
+## "Keep coding and stay curious"
 
-    .quote {
-      font-size: 15px;
-    }
-
-    .emoji {
-      font-size: 20px;
-      margin: 7px;
-    }
-
-    .streak{
-        width:100%;
-        display:grid;
-        padding:10px;
-        place-items:center;
-    }
-
-  </style>
-</head>
-<body>
-  <div class="quote-container">
-    <div class="emoji">💻🌟🔍</div>
-    <div class="quote">
-      <h3>"Keep coding and stay curious"</h3>
-    </div>
-    <div class="emoji">💻🌟🔍</div>
-  </div>
-</body>
-</html>
+### 💻🌟🔍
