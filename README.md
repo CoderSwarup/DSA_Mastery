@@ -32,6 +32,7 @@ Here are a few things you can expect from my journey in DSA:
 6.  [Day 6. Problem Solving](6_Problem_solving)
 7.  [Day 7. Switch Case And Function](7_Switch_Statement_Functions)
 8.  [Day 8. Arrays](8_Arrays)
+9.  [Day 9. BinarySearch](9_Binary_Search)
 
 ## 🔖 Connect with Me
 
