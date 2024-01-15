@@ -5,45 +5,45 @@ using namespace std;
 
 //https://leetcode.com/problems/merge-sorted-array/description/
 
-// Not Solved 
 
-int merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        int i =0;
-        int j =0;
-        while(i<m && j<n){
+// int merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+//         int i =0;
+//         int j =0;
+//         while(i<m && j<n){
       
-   if(nums1[i] == 0){
-            i++;
-         }
-         if(nums2[j]== 0){
-            j++;
-         }
+//    if(nums1[i] == 0){
+//             i++;
+//          }
+//          if(nums2[j]== 0){
+//             j++;
+//          }
 
-         if(nums1[i]< nums2[j]){
-            nums1.insert(nums1.begin() +i,nums1[i]);
-            i++;
-         }
-         else{
-            nums1.insert(nums1.begin() +j,nums2[j]); 
-            j++;
-         }
-        }
+//          if(nums1[i]< nums2[j]){
+//             nums1.insert(nums1.begin() +i,nums1[i]);
+//             i++;
+//          }
+//          else{
+//             nums1.insert(nums1.begin() +j,nums2[j]); 
+//             j++;
+//          }
+//         }
 
 
 
-         while(i<m){
-            nums1.push_back(nums1[i]);
-              i++;
-        }
+//          while(i<m){
+//             nums1.push_back(nums1[i]);
+//               i++;
+//         }
 
-         while(j<n){
-            nums1.push_back(nums2[j]);
-              j++;
-        }
+//          while(j<n){
+//             nums1.push_back(nums2[j]);
+//               j++;
+//         }
   
 
 
-}
+// }
+
 
 int main(){
 vector<int> nums1 = {1,3,35};

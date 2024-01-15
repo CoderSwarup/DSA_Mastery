@@ -30,7 +30,7 @@ void PintArray(int arr[] ,int n){
 void AlternateSwap(int arr[],int n){
 
     for(int i=0;i<=n;i+=2){
-        if(arr[i+1]>=n){
+        if(i+1>=n){
             break;
         }
         swap(arr[i],arr[i+1]);
