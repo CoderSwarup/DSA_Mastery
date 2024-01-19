@@ -1,9 +1,10 @@
-     for(int i=0;i<row;i++){
-        for(int j=0;j<col;j++){
-
-            // cout<< matrix[i][j] << " ";
-            int temp = matrix[i][j];
-            matrix[i][j] = matrix[j][i];
-            matrix[j][i]=temp;
-        }
-    }
+   // // revese row
+    // for(int i=0;i<n;i++){
+    //     int s =0;
+    //     int e = n-1;
+    //     while(s<e){
+    //         swap(matrix[i][s],matrix[i][e]);
+    //         s++;
+    //         e--;
+    //     }
+    // }
