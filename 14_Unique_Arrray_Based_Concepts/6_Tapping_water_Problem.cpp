@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 #include <vector>
+#include <limits.h>
 
 
 // TC O(n)
@@ -115,12 +116,35 @@ for(int i=n-1;i>MaxHeightIndex;i--){
 }
 
 
+// Tapping Water using the Two Pointer 
+void  TappingWaterTwoPointer(vector<int> height){
+        int leftMax = INT_MIN;
+        int rightMax = INT_MIN;
+        int water = 0;
+        int left = 0;
+        int right = height.size()-1;
+
+        while(left < right)
+        {
+            leftMax = max(leftMax,height[left]);
+            rightMax = max(rightMax,height[right]);
+            if(leftMax < rightMax)
+                water += leftMax - height[left++];
+            else
+                water += rightMax - height[right--];
+        }
+
+        cout << water;
+}
+
+
 int main(){
 
-    vector<int> BuldingHeight = {4,2,0,5,2,6,2,3};
+    vector<int> BuldingHeight = {4,2,0,5,2,6,2,7};
     // vector<int> BuldingHeight = {0,1,0,2,1,0,1,3,2,1,2,1};
-    TappingWater(BuldingHeight);
+    // TappingWater(BuldingHeight);
     // TappingWaterWithoutSpace(BuldingHeight);
+    TappingWaterTwoPointer(BuldingHeight);
 
 
 return 0;
