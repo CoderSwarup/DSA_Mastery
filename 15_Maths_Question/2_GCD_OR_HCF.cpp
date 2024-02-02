@@ -14,6 +14,19 @@ void gcd(int a, int b)
 }
 
 // Gcd ==> euclidean algorithm
+
+// using Remender  
+
+void GCDRem(int a,int b){
+    while(b!=0){
+        int rem = a%b;
+        a=b;
+        b=rem;
+    }
+
+
+    cout << a;
+}
 int GCD(int a, int b){
 
     if(a==0){
@@ -37,7 +50,8 @@ int GCD(int a, int b){
 int main()
 {
     gcd(3,7);
-    cout<< endl<< GCD(3,7) ;
+    cout<< endl<< GCD(3,7) << endl ;
+    GCDRem(3,7);
 
     return 0;
 }
