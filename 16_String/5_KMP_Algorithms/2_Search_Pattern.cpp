@@ -72,8 +72,8 @@ vector <int> searchPattern(string s1,string s2){
 
 int main(){
 
-    string s1 = "abesdu";
-    string s2 = "edu";
+    string s1 = "geeksforgeeks";
+    string s2 = "geek";
 
    vector<int> MAP = searchPattern(s1,s2);
    for(auto i:MAP){
