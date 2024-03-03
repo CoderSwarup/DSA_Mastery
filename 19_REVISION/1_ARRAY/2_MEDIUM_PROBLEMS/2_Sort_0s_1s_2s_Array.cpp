@@ -55,10 +55,39 @@ void sortArrayBetter(vector<int>& arr)
 }
 
 
+// OPTIMAL Dutch National flag algorithm. 
+// TC O(N)
+
+void sortArrayOptimal(vector<int>& arr)
+{
+    int low = 0;
+    int mid = 0;
+    int high = arr.size() -1;
+
+    while(mid <= high){
+
+        // con1 mid == 0
+        if(arr[mid] ==0 ){
+            swap(arr[low],arr[mid]);
+            low++;
+            mid++;
+        }else if(arr[mid] == 1){
+        // con2 mid == 1;
+            mid++;
+        }else{
+        // con 3 mid == 2
+            swap(arr[mid],arr[high]);
+            high--;
+        }
+    }
+}
+
+
 int main(){
    vector<int> ans = { 2, 2, 2, 2, 0, 0, 1, 0};
     // sortArray(ans);
-    sortArrayBetter(ans);
+    // sortArrayBetter(ans);
+    sortArrayOptimal(ans);
    for(auto i :ans){
         cout << i << " ";
     }
