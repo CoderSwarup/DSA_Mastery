@@ -72,9 +72,7 @@ int longestSuccessiveElementsOptimal(vector<int>& nums) {
         record.insert(nums[i]);
     }
 
-
     for(auto i:record){
-
         if(record.find(i -1) == record.end()){
             int count = 1;
 
