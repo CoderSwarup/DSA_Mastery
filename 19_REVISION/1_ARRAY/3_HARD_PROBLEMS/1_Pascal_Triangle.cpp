@@ -18,7 +18,7 @@ long long  nCr(int n,int r){
     }
 
     // cout << res << endl;
-    return res;
+    return (int)(res);
 }
 
 
@@ -38,6 +38,58 @@ void printNthRow(int n){
     
 }
 
+
+// OPTIMAL 
+// O(N)
+
+void printNthRowOptimal(int n){
+    long long ans =1;
+    cout << ans << " ";
+    for(int col=1;col<n;col++){
+        ans *= (n-col);
+        ans /=  col;
+        cout << ans  << " ";
+    }
+    
+}
+
+
+
+
+//variey 3 
+// Print complete pascal triangle 
+
+
+// TC (N*N*R)
+
+void PrintPascalTriangle(int n){
+
+    for(int i=1;i<=n;i++) {
+        for(int col=1;col<=i;col++){
+           cout << nCr(i-1,col-1) << " ";
+        }
+        cout << endl;
+
+    }
+}
+
+// Optimal
+// TC O(N2)
+void PrintPascalTriangleOptimal(int n){
+
+    for(int i=1;i<=n;i++) {
+        long long ans = 1;
+        cout << ans << " ";
+        for(int col=1;col<i;col++){
+            ans *= (i-col);
+            ans /= col;
+            cout << ans << " ";
+        }
+        cout << endl;
+
+    }
+}
+
 int main(){
 
     // variety 1
@@ -46,7 +98,21 @@ int main(){
 
 
     // variety 2
-    printNthRow(5);
+    cout << "\nVariety 2 Print nth Row \n";
+    printNthRow(5) ;
+    cout << endl;
+    printNthRowOptimal(5) ;
+    cout << endl;
+
+
+    //  variety 3
+    cout << "\nVariety 3 Print Pascal Triangle Row \n";
+    PrintPascalTriangle(5);
+        cout << endl;
+
+    PrintPascalTriangleOptimal(5);
+        cout << endl;
+
 
 return 0;
 }
