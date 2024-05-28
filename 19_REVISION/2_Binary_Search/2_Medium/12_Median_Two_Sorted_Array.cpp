@@ -39,14 +39,9 @@ using namespace std;
 
         double median = ((double)nums[n / 2] + (double)nums[(n / 2) - 1]) / 2.0;
         return median;
-    }
-
+}
 
 // better without using the extra array 
-
-
-
-
 
 double findMedianSortedArraysBetter(vector<int>& nums1, vector<int>& nums2) {
     int n1 = nums1.size();
@@ -148,12 +143,12 @@ double findMedianSortedArraysBetter(vector<int>& nums1, vector<int>& nums2) {
 
         return 0.0;
 }
+
+
 int main(){
     vector<int> nums1 = {1,3};
     vector<int> nums2 = {2};
     // cout << findMedianSortedArrays(nums1, nums2) << endl;
     cout << findMedianSortedArraysBinarySearch(nums1, nums2) << endl;
-
-
-return 0;
+    return 0;
 }
