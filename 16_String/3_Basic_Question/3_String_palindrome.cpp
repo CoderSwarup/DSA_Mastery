@@ -14,7 +14,6 @@ int main(){
         swap(str[s],str[e]);
         s++;
         e--;
-        
     }
 
     cout << str << endl;
