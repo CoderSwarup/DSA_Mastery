@@ -70,6 +70,28 @@ void PostOrder(Node* root){
     cout << root->data << " ";
 }
 
+// Level Order Traversal
+void levelOrder(Node* root)
+{
+      //Your code here
+
+    queue<Node*> q;
+    if(root == NULL) return;
+    q.push(root);
+        
+    while(!q.empty()){
+        Node*  t = q.front();
+        q.pop();
+        cout << t->data << " ";
+        if(t->left)
+        q.push(t->left);
+        if(t->right)
+        q.push(t->right);
+    }
+        
+
+}
+
 
 
 
@@ -93,6 +115,11 @@ int main(){
 
     cout << "Post-Order Traversal" << endl;
     PostOrder(root);
+
+    cout << endl;
+
+    cout << "Level-Order Traversal" << endl;
+    levelOrder(root);
 
 
 
